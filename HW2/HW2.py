@@ -54,8 +54,8 @@ if __name__ == '__main__': # note this allows us to include this file in the tes
     hw2.write_to_file(TenXTen)
     hw2.read_TenXTen()
     print "Full Matrix **************\n", hw2.TenXTen
-    hw2.read_rows()
-    hw2.read_cols()
+    hw2.read_rows("rows.txt")
+    hw2.read_cols("columns.txt")
     hw2.slice_TenXTen()
     print "Sliced Matrix *********\n", hw2.sliced_matrix
     hw2.normalize()
